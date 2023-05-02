@@ -13,5 +13,5 @@ Approach
 2. one_for_one: replaced predictions for child missing key features
 3. ensemble: blend and give weights to different model predictions
 4. sensitivity: 
-    (a) first: make predictions with provided feature
-    (b) new: replace current feature with new one
+    (a) first: make predictions with provided feature value
+    (b) new: replace current feature with median value by child_age_group
