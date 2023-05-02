@@ -5,3 +5,13 @@ The Index used the Early Learning Outcomes Measure (ELOM) to assess children, an
 This model uses machine learning techniques to identify which early learning programme factors contribute to better learning outcomes in children, by predicting a child’s ELOM score.
 
 This will allow DataDrive2030 to design better interventions that make optimal use of limited resources to ensure South Africa’s children are thriving.
+
+```python
+Approach
+```
+1. one_for_all: used one model to train and predict all children
+2. one_for_one: replaced predictions for child missing key features
+3. ensemble: blend and give weights to different model predictions
+4. sensitivity: 
+    (a) first: make predictions with provided feature
+    (b) new: replace current feature with new one
